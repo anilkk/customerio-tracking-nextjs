@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <noscript
           dangerouslySetInnerHTML={{
-            __html: `iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJPQDDLR"
+            __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJPQDDLR"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           }}
         />
